@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.filters select, .filters input {
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.players-list {
+    margin-top: 20px;
+}
+
+.players-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.players-list li {
+    background-color: #f2f2f2;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
