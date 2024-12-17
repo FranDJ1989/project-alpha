@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Sports Players</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Find Sports Players</h1>
+        
+        <div class="filters">
+            <label for="sport">Select Sport:</label>
+            <select id="sport">
+                <option value="all">All</option>
+                <option value="soccer">Soccer</option>
+                <option value="basketball">Basketball</option>
+                <option value="tennis">Tennis</option>
+                <option value="paddle">Paddle</option>
+            </select>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" placeholder="Enter location">
+
+            <label for="level">Skill Level:</label>
+            <select id="level">
+                <option value="all">All</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+
+            <label for="time">Available Time:</label>
+            <input type="time" id="time">
+        </div>
+
+        <div class="players-list">
+            <h2>Players</h2>
+            <ul id="players"></ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
